@@ -1,0 +1,516 @@
+.startPage{
+    background-color: rgb(105, 138, 91);
+    width: 100%;
+    height: 100vh;
+}
+
+.startGameCard{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    min-height: 300px;
+    height: fit-content;
+    border-radius: 50px;
+    top: 5%;
+    padding-bottom: 20px;
+    background-color: rgb(210, 236, 247);
+}
+
+.tourneyDiv{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    word-spacing: 10px;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+.startButton{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(80, 197, 76);
+    word-spacing: 4px;
+}
+
+.joinButton{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    font-size: 20px;
+    word-spacing: 4px;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(226, 194, 89);
+}
+
+.form1{
+    width: 50%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.inputSearch{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    width: 100%;
+    height: 30px;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    border-color: rgb(0, 1, 73);
+}
+
+.gobutton{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    width: fit-content;
+    height: 30px;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    border-radius: 4px;
+    border-color: rgb(0, 1, 73);
+    margin: auto;
+}
+
+.gobutton button{
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 1rem;
+    background-color: rgb(56, 121, 56);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.joinDiv{
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+    font-family: arcadeclassic;
+}
+
+.startDiv{
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+}
+
+.form2{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.inputJoin{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    width: 100%;
+    height: 30px;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    word-spacing: 4px;
+    border-color: rgb(0, 1, 73);
+}
+
+.orclass{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    text-align: center;
+    font-size: 20px;
+}
+
+.joinFieldA1{
+    width: fit-content;
+    position: absolute;
+    font-family: Verdana,Geneva,sans-serif;
+    left: 200px;
+    top: 230px;
+}
+
+.joinFieldA2{
+    width: fit-content;
+    position: absolute;
+    font-family: Verdana,Geneva,sans-serif;
+    left: 100px;
+    top: 165px
+}
+
+.joinFieldA3{
+    width: fit-content;
+    position: absolute;
+    font-family: Verdana,Geneva,sans-serif;
+    left: 200px;
+    top: 95px;
+}
+
+.joinFieldA4{
+    width: fit-content;
+    position: absolute;
+    font-family: Verdana,Geneva,sans-serif;
+    left: 305px;
+    top: 165px;
+}
+
+.joinField2a{
+    position: 'absolute';
+    font-family: Verdana,Geneva,sans-serif;
+    top: 178px;
+    left: 225px;
+}
+
+
+.joinField2a{
+    position: 'absolute';
+    font-family: Verdana,Geneva,sans-serif;
+    top: 178px;
+    left: 225px;
+}
+
+.joinField2b{
+    position: 'absolute';
+    font-family: Verdana,Geneva,sans-serif;
+    top: 150px;
+    left: 305px;
+}
+
+.joinField2c{
+    position: 'absolute';
+    font-family: Verdana,Geneva,sans-serif;
+    top: 150px;
+    left: 303px;
+}
+
+.joinField2{
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+.spotButton{
+    font-family: Verdana,Geneva,sans-serif;
+    font-family: arcadeclassic;
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.table1{
+    position: absolute;
+    top: 125px;
+    left: 200px;
+    width: 100px;
+    z-index: 20;
+}
+
+.gameCodeDisplay{
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: 2rem;
+    /* font-family: Verdana,Geneva,sans-serif; */
+    font-family: arcadeclassic;
+}
+
+.beginDiv{
+    width: fit-content;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+.beginButton{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background-color: rgb(80, 197, 76);
+}
+
+.otherUser{
+    font-family: arcadeclassic;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.GNFdiv{
+    font-family: arcadeclassic;
+    font-size: 20px;
+    color: red;
+    word-spacing: 5px;
+    position: absolute;
+    left: 170px;
+    top: 285px;
+}
+
+
+@media (max-width: 450px) {
+
+    .startGameCard{
+        position: relative;
+        margin: auto;
+        width: 350px;
+        min-height: 300px;
+        height: fit-content;
+        border-radius: 50px;
+        top: 10%;
+        padding-bottom: 20px;
+        background-color: rgb(210, 236, 247);
+    }
+
+    .tourneyDiv{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        word-spacing: 10px;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    .inputSearch{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        width: 100%;
+        height: 30px;
+        font-size: 1.2rem;
+        border-radius: 4px;
+        border-color: rgb(0, 1, 73);
+    }
+
+    .startPage{
+        background-color: rgb(105, 138, 91);
+        width: 100%;
+        height: 100vh;
+    }
+    
+    
+    .startButton{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        font-size: 20px;
+        border-radius: 12px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: fit-content;
+        margin: auto;
+        background-color: rgb(80, 197, 76);
+        word-spacing: 4px;
+        color: black;
+    }
+    
+    .joinButton{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        font-size: 20px;
+        word-spacing: 4px;
+        border-radius: 12px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: fit-content;
+        margin: auto;
+        background-color: rgb(226, 194, 89);
+        color: black;
+    }
+    
+    .form1{
+        width: 50%;
+        margin: auto;
+        padding-top: 70px;
+    }
+    
+    .gobutton{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        width: fit-content;
+        height: 30px;
+        font-size: 1.3rem;
+        padding-top: 10px;
+        border-radius: 4px;
+        border-color: rgb(0, 1, 73);
+        margin: auto;
+        
+    }
+    
+    .gobutton button{
+        font-family: Verdana,Geneva,sans-serif;
+        font-size: 1rem;
+        background-color: rgb(56, 121, 56);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        margin: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .joinDiv{
+        margin: auto;
+        width: fit-content;
+        padding: 5px;
+        font-family: arcadeclassic;
+    }
+    
+    .startDiv{
+        margin: auto;
+        width: fit-content;
+        padding: 20px;
+    }
+    
+    .form2{
+        width: 70%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    
+    .inputJoin{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        width: 100%;
+        height: 30px;
+        font-size: 1.3rem;
+        border-radius: 4px;
+        word-spacing: 4px;
+        border-color: rgb(0, 1, 73);
+    }
+    
+    .orclass{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .joinFieldA1{
+        width: fit-content;
+        position: absolute;
+        font-family: Verdana,Geneva,sans-serif;
+        left: 130px;
+        top: 230px;
+    }
+    
+    .joinFieldA2{
+        width: fit-content;
+        position: absolute;
+        font-family: Verdana,Geneva,sans-serif;
+        left: 23px;
+        top: 165px
+    }
+    
+    .joinFieldA3{
+        width: fit-content;
+        position: absolute;
+        font-family: Verdana,Geneva,sans-serif;
+        left: 130px;
+        top: 95px;
+    }
+    
+    .joinFieldA4{
+        width: fit-content;
+        position: absolute;
+        font-family: Verdana,Geneva,sans-serif;
+        left: 240px;
+        top: 165px;
+    }
+    
+    .joinField2{
+        font-family: Verdana,Geneva,sans-serif;
+    }
+    
+    .spotButton{
+        font-family: Verdana,Geneva,sans-serif;
+        font-family: arcadeclassic;
+        font-size: 1.2rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        margin: 0;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    .table1{
+        position: absolute;
+        top: 125px;
+        left: 130px;
+        width: 100px;
+        z-index: 20;
+    }
+    
+    .gameCodeDisplay{
+        position: absolute;
+        bottom: 10px;
+        left: 25px;
+        font-size: 1.3rem;
+        /* font-family: Verdana,Geneva,sans-serif; */
+        font-family: arcadeclassic;
+    }
+    
+    .beginDiv{
+        width: fit-content;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+    }
+    
+    .beginButton{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        font-size: 20px;
+        border-radius: 12px;
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        background-color: rgb(80, 197, 76);
+        color: black;
+    }
+    
+    .otherUser{
+        font-family: arcadeclassic;
+        font-size: 20px;
+        display: inline-block;
+    }
+    
+    .GNFdiv{
+        font-family: arcadeclassic;
+        font-size: 20px;
+        color: red;
+        word-spacing: 5px;
+        position: absolute;
+        left: 100px;
+        top: 285px;
+    }
+    
+}

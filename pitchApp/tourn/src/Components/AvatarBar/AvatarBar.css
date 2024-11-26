@@ -1,0 +1,23 @@
+.chooseDiv{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 8px;
+}
+
+@media (max-width: 450px) {
+
+    .chooseDiv{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        word-spacing: 5px;
+    }
+
+}

@@ -1,0 +1,283 @@
+.ScoreBox{
+    position: absolute;
+    background-color: azure;
+    border-radius: 25px;
+    width: 380px;
+    height: 180px;
+    left: 15px;
+    top: 20px;
+    
+}
+
+.team1{
+    width: 40%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.emptyDiv{
+    width: 20%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.team2{
+    width: 40%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.team1User1{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    font-size: 1.3rem;
+
+}
+
+.team1User3{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    font-size: 1.3rem;
+}
+
+.team2User2{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    font-size: 1.3rem;
+}
+
+.team2User4{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    font-size: 1.3rem;
+}
+
+.points{
+    position: absolute;
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    font-size: 1.3rem;
+    left: 160px;
+    top: 74px;
+}
+
+.pointsThisRound{
+    position: absolute;
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    font-size: 1rem;
+    width: 100px;
+    left: 145px;
+    top: 130px;
+}
+
+.t1points{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.t2points{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.t1pointsTR{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 2rem;
+    margin-top: 24px;
+}
+
+.t2pointsTR{
+    font-family: arcadeclassic;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 2rem;
+    margin-top: 24px;
+}
+
+.suitClass{
+    font-size: 1.65rem;
+}
+
+.bidClass{
+    font-family: arcadeclassic;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.rightArrowDiv{
+    position: absolute;
+    left: 238px;
+    top: 10px;
+    font-size: 2.0rem;
+}
+
+.leftArrowDiv{
+    position: absolute;
+    left: 124px;
+    top: 10px;
+    font-size: 2.0rem;
+}
+
+@media (max-width: 450px) {
+    .ScoreBox{
+        position: absolute;
+        background-color: azure;
+        border-radius: 25px;
+        width: 350px;
+        height: 113px;
+        left: 15px;
+        top: 20px;
+        
+    }
+
+    .team1{
+        width: 40%;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .emptyDiv{
+        width: 20%;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .team2{
+        width: 40%;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .team1User1{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 23px;
+        font-size: 1rem;
+
+    }
+
+    .team1User3{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 23px;
+        font-size: 1rem;
+    }
+
+    .team2User2{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 23px;
+        font-size: 1rem;
+    }
+
+    .team2User4{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 23px;
+        font-size: 1rem;
+    }
+
+    .points{
+        position: absolute;
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 23px;
+        font-size: 1rem;
+        left: 150px;
+        top: 50px;
+    }
+
+    .pointsThisRound{
+        position: absolute;
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 23px;
+        font-size: 0.8rem;
+        width: 100px;
+        left: 130px;
+        top: 85px;
+    }
+
+    .t1points{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .t2points{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .t1pointsTR{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .t2pointsTR{
+        font-family: arcadeclassic;
+        text-align: center;
+        word-spacing: 5px;
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .suitClass{
+        font-size: 1.5rem;
+    }
+
+    .bidClass{
+        font-family: arcadeclassic;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .rightArrowDiv{
+        position: absolute;
+        left: 200px;
+        top: 10px;
+        font-size: 1.5rem;
+    }
+
+    .leftArrowDiv{
+        position: absolute;
+        left: 124px;
+        top: 10px;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,434 @@
+
+.myHand{
+    position: absolute;
+    left: 325px;
+    top: 650px;
+    width: 50%;
+}
+
+.container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #83a07b;
+    min-width: 1300px;
+    min-height: 1000px;
+    z-index: 2;
+}
+
+.table{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 30%;
+    z-index: -1;
+    max-width: 600px;
+    /* background-color: #282c34; */
+}
+
+.otherHand1{
+    position: absolute; 
+    left: 380px;
+    top: -400px;
+    width: 50%;
+}
+
+.otherHand2{
+    position: absolute; 
+    transform: rotate(90deg);
+    left: 780px;
+    top: 160px;
+}
+
+.otherHand3{
+    position: absolute; 
+    transform: rotate(90deg);
+    left: 1380px;
+    top: 160px;
+}
+
+.pc1{
+    position: absolute; 
+    left: 535px;
+    top: 240px;
+    height: 130px;
+    z-index: 1;
+}
+
+.pc2{
+    position: absolute; 
+    left: 680px;
+    top: 360px;
+    height: 130px;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+.pc3{
+    position: absolute; 
+    left: 535px;
+    top: 490px;
+    height: 130px;
+    z-index: 1;
+}
+
+.pc4{
+    position: absolute; 
+    left: 380px;
+    top: 360px;
+    height: 130px;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+.usernameDiv{
+    /* font-family: Verdana,Geneva,sans-serif;  */
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.tcanWrapper{
+    position: absolute;
+    top: 660px;
+    left: 60px;
+    z-index: 0;
+
+}
+
+.tcan{
+    height: 160px;
+    padding-left: 40px;
+    z-index: 0;
+}
+
+.discDiv{
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    width: 200px;
+    text-align: center;
+    word-spacing: 8px;
+}
+
+.d2pDiv{
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    width: 150px;
+    text-align: center;
+    word-spacing: 5px;
+    position: absolute;
+    left: 510px;
+    top: 415px;
+}
+
+.cardBackRRD{
+    position: absolute;
+    height: 130px;
+    top: 370px;
+    left: 400px;
+}
+
+.c2fDiv{
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    width: 200px;
+    text-align: center;
+    word-spacing: 8px;
+    position: absolute;
+    left: 360px;
+    top: 320px;
+}
+
+.d2hDiv{
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    width: 200px;
+    text-align: center;
+    word-spacing: 8px;
+    position: absolute;
+    left: 600px;
+    top: 320px;
+}
+
+.sixOnlyDiv{
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    width: 700px;
+    text-align: center;
+    word-spacing: 8px;
+    position: absolute;
+    left: 220px;
+    top: 620px;
+}
+
+.iwgc{
+    font-family: arcadeclassic;
+    font-size: 1.3rem;
+    width: 500px;
+    text-align: center;
+    word-spacing: 8px;
+    position: absolute;
+    left: 340px;
+    top:340px;
+}
+
+.cardRRD{
+    position: absolute;
+    height: 130px;
+    left: 650px;
+    top: 370px;
+}
+
+.overlay{
+    position: absolute; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+}
+
+.avatar1{
+    position: absolute;
+    left: 550px;
+    top: 800px
+}
+
+.avatar2{
+    position: absolute;
+    left: 100px;
+    top: 370px
+}
+
+.avatar3{
+    position: absolute;
+    left: 550px;
+}
+
+.avatar4{
+    position: absolute;
+    left: 970px;
+    top: 370px
+}
+
+@media (max-width: 450px) {
+    
+    .myHand{
+        position: absolute;
+        left: 50px;
+        top: 610px;
+        width: 50%;
+    }
+
+    .container{
+        position: absolute;
+        height: 135%;
+        width: 100%;
+        background-color: #83a07b;
+        z-index: 2;
+        overflow: hidden;
+        
+    }
+
+    .table{
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        width: 30%;
+        z-index: -1;
+        max-width: 600px;
+        /* background-color: #282c34; */
+    }
+
+    .otherHand1{
+        position: absolute; 
+        left: 120px;
+        top: -210px;
+        /* width: 50%; */
+    }
+
+    .otherHand2{
+        position: absolute; 
+        transform: rotate(90deg);
+        left: 533px;
+        top: 395px;
+    }
+
+    .otherHand3{
+        position: absolute; 
+        transform: rotate(90deg);
+        left: 830px;
+        top: 347px;
+    }
+
+    .pc1{
+        position: absolute; 
+        left: 160px;
+        top: 370px;
+        height: 80px;
+        z-index: 1;
+    }
+
+    .pc2{
+        position: absolute; 
+        left: 237px;
+        top: 445px;
+        height: 80px;
+        z-index: 1;
+        transform: rotate(90deg);
+    }
+
+    .pc3{
+        position: absolute; 
+        left: 160px;
+        top: 520px;
+        height: 80px;
+        z-index: 1;
+    }
+
+    .pc4{
+        position: absolute; 
+        left: 80px;
+        top: 445px;
+        height: 80px;
+        z-index: 1;
+        transform: rotate(90deg);
+    }
+
+    .usernameDiv{
+        /* font-family: Verdana,Geneva,sans-serif;  */
+        font-family: arcadeclassic;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .tcanWrapper{
+        position: absolute;
+        top: 720px;
+        left: 0px;
+        z-index: 0;
+
+    }
+
+    .tcan{
+        height: 80px;
+        padding-left: 20px;
+        z-index: 0;
+    }
+
+    .discDiv{
+        font-family: arcadeclassic;
+        font-size: 0.8rem;
+        width: 100px;
+        text-align: center;
+        word-spacing: 8px;
+    }
+
+    .d2pDiv{
+        font-family: arcadeclassic;
+        font-size: 0.9rem;
+        width: 90px;
+        text-align: center;
+        word-spacing: 5px;
+        position: absolute;
+        left: 146px;
+        top: 469px;
+    }
+
+    .cardBackRRD{
+        position: absolute;
+        height: 80px;
+        top: 440px;
+        left: 88px;
+    }
+
+    .c2fDiv{
+        font-family: arcadeclassic;
+        font-size: 0.9rem;
+        width: 100px;
+        text-align: center;
+        word-spacing: 8px;
+        position: absolute;
+        left: 70px;
+        top: 390px;
+    }
+
+    .d2hDiv{
+        font-family: arcadeclassic;
+        font-size: 0.9rem;
+        width: 100px;
+        text-align: center;
+        word-spacing: 8px;
+        position: absolute;
+        left: 190px;
+        top: 390px;
+    }
+
+    .sixOnlyDiv{
+        font-family: arcadeclassic;
+        font-size: 0.9rem;
+        width: 200px;
+        text-align: center;
+        word-spacing: 8px;
+        position: absolute;
+        left: 47px;
+        top: 580px;
+    }
+
+    .iwgc{
+        font-family: arcadeclassic;
+        font-size: 0.9rem;
+        width: 300px;
+        text-align: center;
+        word-spacing: 8px;
+        position: absolute;
+        left: 40px;
+        top:400px;
+    }
+
+    .cardRRD{
+        position: absolute;
+        height: 80px;
+        left: 206px;
+        top: 440px;
+    }
+
+    .overlay{
+        position: absolute; /* Sit on top of the page content */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+    }
+
+    .avatar1{
+        position: absolute;
+        left: 160px;
+        top: 700px
+    }
+    
+    .avatar2{
+        position: absolute;
+        left: 10px;
+        top: 380px
+    }
+    
+    .avatar3{
+        position: absolute;
+        top: 300px;
+        left: 260px;
+    }
+    
+    .avatar4{
+        position: absolute;
+        left: 310px;
+        top: 520px
+    }
+}

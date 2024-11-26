@@ -1,0 +1,22 @@
+DONE: check gamecode exists before join
+DONE: deck passing
+DONE: delete game file after game over
+DONE: clear ws array after game over
+DONE: chat
+DONE: fca discard box bug
+DONE: points carrying over bug
+DONE: scoring bug
+DONE: host on vps
+DONE: enter on forms to SUBMIT
+
+LowPrio:
+integrate AI
+gray out unlickables
+PARTLY DONE: mobile version
+
+HighPrio:
+reconnect support
+    -syncing issues on disconnects
+handle bad requests better on backend
+delete gameFile on startpage leaves
+gunicorn/equivalent
