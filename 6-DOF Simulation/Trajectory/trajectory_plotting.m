@@ -1,0 +1,1 @@
+plot3(Xe.signals(1).values, Xe.signals(2).values, Xe.signals(3).values)
