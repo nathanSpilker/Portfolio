@@ -1,0 +1,31 @@
+{
+    "geometry_params" : {
+        "geometry" : "none",
+        "scale" : 1,
+        "center" : [0,0]
+    },
+    "solver_params" : {
+        "input_solver": "jacobi",
+        "length_x" : 1,
+        "length_y" : 1,
+        "n_x" : 64,
+        "n_y" : 64,
+        "nu" : 1e-2,
+        "rho" : 1,
+        "iters" : 1000,
+        "dt" : 0.005,
+        "eps" : 1e-3,
+        "maxitr" : 10000
+    },
+    "init_conditions" : {
+        "u_init" : 1,
+        "v_init" : 0,
+        "u_flow" : 0,
+        "v_flow" : 0,
+        "cond_type" : "lid_driven_cavity"
+    }
+
+}
+
+
+
