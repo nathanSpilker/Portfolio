@@ -1,0 +1,448 @@
+-------------
+No hit on Function: 
+lda*x*Abs(x)
+Errored out: 
+False
+Seed: 
+1000
+-------------
+-------------
+No hit on Function: 
+0
+Errored out: 
+False
+Seed: 
+1001
+-------------
+-------------
+No hit on Function: 
+-(-2)**x*lda**4*x*(-2*x + 1/(lda**3*x**27*(lda*x + cos(x))**4*Abs(x)**4))*atan(x)
+Errored out: 
+True
+Seed: 
+1002
+-------------
+-------------
+No hit on Function: 
+-(-3)**(8*x**8 - 8*sin(lda*x - 1/(lda**8*(-lda*x*(-lda**2*x*Abs(x) - lda*x) + lda*x)**4)))*sin(x)
+Errored out: 
+True
+Seed: 
+1003
+-------------
+-------------
+No hit on Function: 
+-lda*x*cos(lda**2*x*cos(x)**2*cos(2*lda*x - sin(lda*x**2)))
+Errored out: 
+False
+Seed: 
+1004
+-------------
+-------------
+No hit on Function: 
+-log(log(lda**3*x*(x + sin(256*lda**9*x**9*atan(sin(x))**8))*atan(x)))
+Errored out: 
+True
+Seed: 
+1005
+-------------
+-------------
+No hit on Function: 
+-sin(lda*x*(cos(x) + cos(sin(x) + zoo) + atan(x))*log(x))
+Errored out: 
+False
+Seed: 
+1006
+-------------
+-------------
+No hit on Function: 
+-lda**3*x*(lda**3*x**2 + log(x))
+Errored out: 
+True
+Seed: 
+1007
+-------------
+-------------
+No hit on Function: 
+lda**2*log(Abs(sin(x)))*cos(x)
+Errored out: 
+False
+Seed: 
+1008
+-------------
+-------------
+No hit on Function: 
+lda*x*(-log(x)*cos(cos((-1)**(-lda*x - lda*sin(Abs(log(-lda/((-1)**x + lda*(log(-lda*x) - sin(x)))**4)*atan(x))))*lda + Abs(x)))**4 - Abs(x))
+Errored out: 
+True
+Seed: 
+1009
+-------------
+-------------
+No hit on Function: 
+lda**5*(7**x + lda**2*x + lda*x)*cos(x)
+Errored out: 
+True
+Seed: 
+1010
+-------------
+-------------
+No hit on Function: 
+-lda**3*x**2
+Errored out: 
+False
+Seed: 
+1011
+-------------
+-------------
+No hit on Function: 
+lda*x*(-lda*x - lda*(-6*log(x) + atan(x) - 6*atan(cos(log(cos(x) - cos(8**x*(lda**2*x*((-2)**x + log(x)) - lda*x - cos(x))*Abs(x)))))))*atan(x)
+Errored out: 
+True
+Seed: 
+1012
+-------------
+-------------
+No hit on Function: 
+-lda/x**2
+Errored out: 
+True
+Seed: 
+1013
+-------------
+-------------
+No hit on Function: 
+lda*(log(x) + lda*Abs(x)/2**(lda**5*x**2*(-7*lda*x*(5*lda**2*x**2 + lda*x) + lda*x)*atan(x)))
+Errored out: 
+True
+Seed: 
+1014
+-------------
+-------------
+No hit on Function: 
+sin(lda*x*cos(7*Abs(lda**2*x**2)))
+Errored out: 
+False
+Seed: 
+1015
+-------------
+-------------
+No hit on Function: 
+-lda**2*x**2*Abs(lda**2*x)**6
+Errored out: 
+False
+Seed: 
+1016
+-------------
+-------------
+No hit on Function: 
+atan((5*x + sin((-8*lda*x + 8*lda*(-lda*x - atan(lda*(-lda*x + lda*(6*lda**2*x**2*(lda*x + log(5*Abs(lda**4*(lda*x*(2*lda*x + x**6) + lda*x))) + Abs(x)) - cos(x))) + 3*x)))**(-7)))**4)
+Errored out: 
+False
+Seed: 
+1017
+-------------
+-------------
+No hit on Function: 
+3*lda*Abs(log(-atan(atan(lda*x - Abs(lda*(lda*x + Abs(lda*cos(lda*x - 4*x + cos(x)))))))))
+Errored out: 
+False
+Seed: 
+1018
+-------------
+-------------
+No hit on Function: 
+lda*x*Abs(lda**2*x*Abs(Abs(x)) + cos(x))
+Errored out: 
+False
+Seed: 
+1019
+-------------
+-------------
+No hit on Function: 
+lda*x + x**4
+Errored out: 
+False
+Seed: 
+1020
+-------------
+-------------
+No hit on Function: 
+lda*x - 8*x + atan(cos(lda**2*x))
+Errored out: 
+False
+Seed: 
+1021
+-------------
+-------------
+No hit on Function: 
+-lda*x
+Errored out: 
+False
+Seed: 
+1022
+-------------
+-------------
+No hit on Function: 
+0
+Errored out: 
+False
+Seed: 
+1023
+-------------
+-------------
+No hit on Function: 
+-lda*x*(3*lda**2*x*sin(x - sin(Abs(lda*x*(lda*x - lda*sin((-8)**sin(lda*Abs(x)*Abs(log(-(log(6*Abs(lda*x*sin(x)*Abs(sin(lda*x - 2*x)))) - atan(x))))) + lda*x + x**3 - 1/x**4))))) - log(x) - cos(x))
+Errored out: 
+True
+Seed: 
+1024
+-------------
+-------------
+No hit on Function: 
+lda*x - lda*(lda*x - Abs(x) + 7/x**5)
+Errored out: 
+False
+Seed: 
+1025
+-------------
+-------------
+No hit on Function: 
+(-1)**(log(x)*cos(lda*x))*lda**3*x*Abs(x) + 7*x + Abs(x)
+Errored out: 
+True
+Seed: 
+1026
+-------------
+-------------
+No hit on Function: 
+-lda**3*x**2 + lda*x
+Errored out: 
+False
+Seed: 
+1027
+-------------
+-------------
+No hit on Function: 
+cos(x) - Abs(2*lda*x*cos(x) - 1)
+Errored out: 
+False
+Seed: 
+1028
+-------------
+-------------
+No hit on Function: 
+-1
+Errored out: 
+False
+Seed: 
+1029
+-------------
+-------------
+No hit on Function: 
+log(8*lda*x**2*(Abs(lda*x) + atan(x))*sin(x))*sin(x)
+Errored out: 
+True
+Seed: 
+1030
+-------------
+-------------
+No hit on Function: 
+-2*lda**2*x**2
+Errored out: 
+False
+Seed: 
+1031
+-------------
+-------------
+No hit on Function: 
+-lda*(-lda*x + 6*x*(-lda*x + sin(x) + cos(Abs((-6)**x*lda**2*x**2*(lda*x + atan(sin(x))) + lda*x))))
+Errored out: 
+True
+Seed: 
+1032
+-------------
+-------------
+No hit on Function: 
+sin(sin(lda*(8*lda*(2*lda*x - cos(Abs(lda**2*(-lda*x + 3*x + cos(x) + cos(5**(lda*x*(lda**3*x**2 - sin(x))) - lda*x)))))/x**8 - 16*x) - 4*x))
+Errored out: 
+True
+Seed: 
+1033
+-------------
+-------------
+No hit on Function: 
+6**log(x) + lda*x
+Errored out: 
+False
+Seed: 
+1034
+-------------
+-------------
+No hit on Function: 
+-4*lda**2*x**2
+Errored out: 
+False
+Seed: 
+1035
+-------------
+-------------
+No hit on Function: 
+5*sin(x) + 5*lda**2*x/(-1)**(lda*x*sin(x))
+Errored out: 
+True
+Seed: 
+1036
+-------------
+-------------
+No hit on Function: 
+Abs(lda*x*cos(x)**2)
+Errored out: 
+False
+Seed: 
+1037
+-------------
+-------------
+No hit on Function: 
+-4**x*lda**3*x**2
+Errored out: 
+False
+Seed: 
+1038
+-------------
+-------------
+No hit on Function: 
+-7*lda**2*x**2*sin(x)
+Errored out: 
+False
+Seed: 
+1039
+-------------
+-------------
+No hit on Function: 
+-sin(lda*x*sin(x))
+Errored out: 
+False
+Seed: 
+1040
+-------------
+-------------
+No hit on Function: 
+lda**10*x*(lda*x + lda*(log(x) + sin(2*lda*x + log(x))) + atan(x))**7
+Errored out: 
+True
+Seed: 
+1041
+-------------
+-------------
+No hit on Function: 
+lda*x*exp(pi*im(lda*x*atan((-1)**x*lda*(lda*x + log(cos(x) + 147*Abs(lda**4))))))*Abs(lda)/6**re(lda*x*atan((-1)**x*lda*(lda*x + log(cos(x) + 147*Abs(lda**4)))))
+Errored out: 
+True
+Seed: 
+1042
+-------------
+-------------
+No hit on Function: 
+-cos(lda*(lda*x + lda))
+Errored out: 
+False
+Seed: 
+1043
+-------------
+-------------
+No hit on Function: 
+(-49*lda**3*x**4*log(x)*Abs(x) - atan(x))*sin(x)
+Errored out: 
+True
+Seed: 
+1044
+-------------
+-------------
+No hit on Function: 
+(-1)**x*lda*(1 - sin(x)) - lda*x
+Errored out: 
+True
+Seed: 
+1045
+-------------
+-------------
+No hit on Function: 
+cos(lda*x - 1)
+Errored out: 
+False
+Seed: 
+1046
+-------------
+-------------
+No hit on Function: 
+lda*x - 1/Abs(x**4)
+Errored out: 
+False
+Seed: 
+1047
+-------------
+-------------
+No hit on Function: 
+-7*lda**2*(lda*x + 1/(lda**3*x**2))
+Errored out: 
+False
+Seed: 
+1048
+-------------
+-------------
+No hit on Function: 
+cos(lda**8*x**7) + atan(x)
+Errored out: 
+False
+Seed: 
+1049
+-------------
+-------------
+No hit on Function: 
+-Abs(lda*x)
+Errored out: 
+False
+Seed: 
+1050
+-------------
+-------------
+No hit on Function: 
+-lda*x + (-3**(-(2*(re(lda*x) + re(lda*sin(lda*cos(lda/x**5))))*re(lda**3*x**3*log(x)) - 2*(im(lda*x) + im(lda*sin(lda*cos(lda/x**5))))*im(lda**3*x**3*log(x)) + re(lda*x))*re(lda) + (2*(re(lda*x) + re(lda*sin(lda*cos(lda/x**5))))*im(lda**3*x**3*log(x)) + 2*(im(lda*x) + im(lda*sin(lda*cos(lda/x**5))))*re(lda**3*x**3*log(x)) + im(lda*x))*im(lda))*lda**2*Abs(x) - 7*x)*Abs(x)
+Errored out: 
+False
+Seed: 
+1051
+-------------
+-------------
+No hit on Function: 
+0
+Errored out: 
+False
+Seed: 
+1052
+-------------
+-------------
+No hit on Function: 
+(-4)**x - 6*lda**3*(lda*x + 4*x - Abs(lda*x*(lda**2*x/atan(log(x)*cos(lda*atan(1/(lda**8*Abs(x**6)**8))**4))**3 - lda*x)))**7*Abs(x)
+Errored out: 
+True
+Seed: 
+1053
+-------------
+-------------
+No hit on Function: 
+(-4)**(-2*lda**2*x**9*(-lda*x - Abs(x)))
+Errored out: 
+True
+Seed: 
+1054
+-------------
+-------------
+No hit on Function: 
+4*lda**2*x*(lda*x + lda*(-lda*x*(log(4**x*x**12) - cos(x)) - lda*x)) + lda*x - Abs(x)
+Errored out: 
+False
+Seed: 
+1055
+-------------

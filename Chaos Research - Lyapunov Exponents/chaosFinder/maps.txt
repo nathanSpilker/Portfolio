@@ -1,0 +1,8 @@
+1. m = np.sin(u*m*np.cos(7*np.abs(u**2*m**2)))
+
+2. m = 5*np.cos(m)*np.arctan(u**3*m)
+
+3. m = u*np.arctan(m)/np.sqrt(u**16*m**16 + 1)
+
+4. m = u*m/np.sqrt(u**4*m**4 + 1)
+
