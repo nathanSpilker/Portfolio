@@ -7,6 +7,9 @@ During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation sof
 ## Thesis
 As my undergraduate thesis, I designed and built a tri-copter VTOL delivery drone for 25lb. payloads and 600-mile range with Noah McGuinness and Noah Schocet. I performed a complete aircraft sizing, CFD, longitudinal stability analysis, and designed a VTOL flight controller. Our thesis won the John Marshall II 2nd place thesis prize within the Princeton MAE department. Thus far, the project has culminated in construction of multiple prototypes that were flown as a proof of concept for the aircraft configuration. 
 
+## CFD Solver
+As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
+
 ## Pitch App
 tourneyrules.app is a multiplayer web app where you can play the card game "Pitch." Pitch is one of my family's favorite card games and since I don't live close enough to play with them in person oftern, nor does the game exist in any other online players, I decided to develop it myself. The app uses websockets for a real-time multiplayer experience. Another part of this project was an AI pitch-player model. Using tensorflow, I used Deep Learning to create an model that can play the card game with comparable-to-human performance. The intention behind this was to fill up games where the required 4 humans weren't present to play the game.
 
