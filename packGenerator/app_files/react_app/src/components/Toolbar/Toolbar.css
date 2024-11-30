@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 1, 73);
+    height: 56px;
+    transform: translateY(-100%);
+    transition: transform 1s ease-in;
+}
+
+.toolbar.on{
+    transform: translateY(0);
+}
+
+.titlediv {
+    padding-left: 11px;
+}
+
+.titletext{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar_navigation-items li {
+    padding: 0 0.75rem;
+}
+
+.toolbar_navigation-items li a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.toolbar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.titletext:hover,
+.titletext:active,
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+    color: rgb(150, 97, 0);
+    text-decoration:none;
+}
+
+@media screen and (max-width: 815px) {
+    .titlediv {
+        padding-left: 6px;
+        padding-bottom: 7px;
+    }
+    
+    .titletext{
+        color: white;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .toolbar{
+        height: 35px;
+    }
+
+    .toolbar_navigation-items{
+        padding-left: 100%;
+    }
+}

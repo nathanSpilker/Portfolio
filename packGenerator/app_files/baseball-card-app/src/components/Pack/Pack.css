@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.packstyle img{
+    height: 300px;
+    display: block;
+    margin: auto;
+    z-index: 100;
+    position: relative;
+}
+.packstylefetching img{
+    height: 300px;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.full_pack p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    position: relative;
+    color: white;
+    z-index: 3;
+}
+
+@media screen and (max-width: 815px) {
+    .packstyle img{
+        height: 190px;
+    }
+    .packstylefetching img{
+        height: 190px;
+    }
+    .full_pack p{
+        font-size: 0.75rem;
+    }
+}

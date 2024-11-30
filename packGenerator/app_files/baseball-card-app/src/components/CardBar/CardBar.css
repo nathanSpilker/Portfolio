@@ -1,0 +1,14 @@
+.barclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    z-index: 10;
+    position: relative;
+}
+
+@media screen and (max-width: 815px) {
+    .barclass{
+        flex-wrap: wrap;
+    }
+}

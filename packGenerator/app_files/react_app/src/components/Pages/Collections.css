@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.collections_style{
+    margin-top: 5.2%;
+    overflow: hidden;
+    margin-left: 2%;
+}
+
+.collections_style h6{
+    font-size: 4rem;
+    color:  rgb(0, 1, 73);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

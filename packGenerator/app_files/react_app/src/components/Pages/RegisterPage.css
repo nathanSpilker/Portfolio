@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.loginclass h6{
+    font-size: 2.75rem;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.loginclass p {
+    font-size: 1.5rem;
+    color: rgb(172, 6, 6);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.loginclass {
+    border-radius: 15px;
+    width: 55%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(0, 1, 73);
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    box-shadow: 3px 0px 7px rgba(0,0,0,0.5);
+}
+
+
+.loginbars {
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+.boxclass {
+    margin: auto;
+}
+
+.title {
+    color: rgb(0, 1, 73);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1.5%;
+    padding-top: 20px;
+}
+
+.input {
+    font-family: 'Montserrat', sans-serif;
+    width: 97%;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    border-color: rgb(0, 1, 73);
+}
+.form {
+    padding-left: 1.5%;
+}
+
+.button {
+    color: white;
+    background-color: rgb(56, 121, 56);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 3px 0px 4px rgba(0,0,0,0.5);
+}
+
+.signupbutton{
+    padding-top: 7%;
+    width: 60%;
+    margin: auto;
+}
+
+.accntalrdy p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 1, 73);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.accntalrdy{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 815px) {
+    .loginclass h6{
+        font-size: 1.5rem;
+        padding-top: 4%;
+        padding-bottom: 2%;
+    }
+
+    .loginclass{
+        width: 80%;
+        padding-bottom: 5%;
+        border-radius: 7px;
+        margin-top: 50px;
+    }
+
+    .loginbars{
+        border-radius: 5px;
+        padding-bottom: 0px;
+    }
+
+    .title{
+        font-size: 1.2rem;
+        padding-top: 2px;
+        margin-bottom: 2px;
+        margin-top: 20px;
+    }
+
+    .input{
+        height: 20px;
+        font-size: 0.75rem;
+        border-radius: 3px;
+    }
+
+    .button{
+        font-size: 1rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .signupbutton{
+        width: 30%;
+    }
+
+    .accntalrdy p{
+        font-size: 0.75rem;
+    }
+
+    .accntalrdy{
+        margin-top: 10px;
+    }
+
+    .loginclass p {
+        font-size: 0.75rem;
+        margin-top: 0;
+        padding-bottom: 1px;
+    }
+}

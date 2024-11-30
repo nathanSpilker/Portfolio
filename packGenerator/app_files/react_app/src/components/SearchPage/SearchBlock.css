@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.ColBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid;
+    border-color: rgba(0, 1, 73, 0.8);
+    border-width: 3px;
+    border-radius: 12px;
+    width: 200px;
+    height: 200px; 
+    overflow: hidden;
+    /* background: rgb(236, 234, 231); */
+    background-color: #bbf0f3;
+    background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    margin: 50px;
+}
+
+.ColBlock h1{
+    font-size: 2rem;
+    color:  rgb(0, 1, 73);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6px;
+    word-wrap: break-word;
+    
+}
+
+.ColBlock p{
+    font-size: 1.3rem;
+    color:  rgb(0, 1, 73);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: bottom;
+    padding-bottom: 6px;
+}
+
+.fullblock {
+    display: inline-block;
+}
+@media screen and (max-width: 815px) {
+
+}

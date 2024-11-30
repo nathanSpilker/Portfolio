@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.error{
+    padding-top: 70px;
+}
+
+.error h1{
+    color: rgb(0, 1, 73);
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 815px) {
+    .error{
+        padding-top: 50px;
+    }
+    .error h1{
+        font-size: 1.2rem;
+    }
+}
