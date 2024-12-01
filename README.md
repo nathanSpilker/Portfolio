@@ -40,6 +40,9 @@ packGenerator.com was an idea I had in the summer of 2020. As an avid baseball c
 Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
 engineers at Princeton University. I designed the interstage adapter and the nozzle expander/interstage interface for the second stage. I performed full assembly FEA on the two
 stage vehicle. I was initimately familiar every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches.
+![PNE_5574](https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84)
+
+
 
 ## Erebus
 Erebus was a 20 person team at Princeton University which designed a Lunar Lander to drill and analyze regolith for water on the south pole of the lunar surface and an accompanying Lunar communications orbiter. I was an elected team lead on this project, and was responsible for the science payload on the lander and propulsion systems on the orbiter. Through this project I learned many valuable lessons about engineering design and requirements workflow in a larger team. Some challenges I had to deal with were extreme temperature constraints in the shaded Shackleton crater and volatile sublimation. As for the orbiter, I worked with the GNC team to provide an adequate total impulse over the proposed mission with a hydrazine thruster.
