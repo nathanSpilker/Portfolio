@@ -13,7 +13,7 @@ As my undergraduate thesis, I designed and built a tri-copter VTOL delivery dron
 As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
 Here are sample velocity contours calculated for lid driven cavity flow:
 
-<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="500" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="700" />
+<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="500" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="500" />
 
 
 ## Optimal Control For Satellite Maneuvers
@@ -22,7 +22,8 @@ Here are sample velocity contours calculated for lid driven cavity flow:
 
 ## Chaos Research - Lyapunov Exponents
 Algorithm to find choatic 1D maps. Chaos can be defined as "Sensitive Dependence on Initial Conditions." The most famous and most studied chaotic 1D map is the logistic map: $`x 🡒 rx(1 - x)`$. One way this can be detected is with the Lyapunov exponent. For a given lambda value, if the Lyapunov exponent is positive, then the map is choatic. I created an algorithm that generates random 1D maps and calculate the Lyapunov exponent over a range of lambdas to detect if they have chaos. Three sample bifurcation plots are shown in the Chaos folder, plotted for maps discovered by this algorithm. One quite simple map that is chaotic that the algorithm discovered is $`x 🡒 \frac{rx}{\sqrt{r^4x^4 + 1}}`$. A bifurcation diagram for this map is shown below.
-<img src="https://github.com/user-attachments/assets/0cc1c4d3-e914-4563-811d-092836f91079" width="500" />
+
+<img src="https://github.com/user-attachments/assets/0cc1c4d3-e914-4563-811d-092836f91079" width="700" />
 
 
 ## Pitch App
