@@ -13,7 +13,7 @@ As my undergraduate thesis, I designed and built a tri-copter VTOL delivery dron
 As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
 Here are sample velocity contours calculated for lid driven cavity flow:
 
-<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="300" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="300" />
+<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="500" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="500" />
 
 
 ## Optimal Control For Satellite Maneuvers
