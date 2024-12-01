@@ -11,8 +11,11 @@ Here are sample velocity contours calculated for lid driven cavity flow:
 
 <img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="500" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="500" />
 
-
-## Optimal Control For Satellite Maneuvers
+## Operation Space
+Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
+engineers at Princeton University. I designed the interstage adapter and the nozzle expander/interstage interface for the second stage. I performed full assembly FEA on the two
+stage vehicle. I was initimately familiar every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches. I was the last person to touch the rocket before launch, removing the safety bars attaching the two stages. 
+![PNE_5574](https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84)
 
 ## Re-entry Vehicle Design
 My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body reentry vehicle with three of my peers. The design process required us to solve for an entry path and velocicty profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and utlimately design the thermal protection system (TPS). One of the tasks I permormed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
@@ -32,6 +35,9 @@ Algorithm to find choatic 1D maps. Chaos can be defined as "Sensitive Dependence
 During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation software using Simulink. An image of the Simulink layout is in 6-DOF Simulation/Images, as well as sample outputs for an air-to-air missile, launched with an elevation of 45 degrees. The 6-DOF simulation code is in the file flat_earth_6dof.slx, and can be run for the air-to-air missile if tiw.mat is loaded into your MATLAB workspace. Closed loop controls are also included in the Simulink model, and control coefficients are in the .mat file.
 ![6dof](https://github.com/user-attachments/assets/5fb26340-42eb-4cce-8bd4-5b2feaea6fea)
 
+## Optimal Control For Satellite Maneuvers
+
+
 ## Pitch App
 tourneyrules.app is a multiplayer web app where you can play the card game "Pitch." Pitch is one of my family's favorite card games and since I don't live close enough to play with them in person oftern, nor does the game exist in any other online players, I decided to develop it myself. The app uses websockets for a real-time multiplayer experience. Another part of this project was an AI pitch-player model. Using tensorflow, I used Deep Learning to create an model that can play the card game with comparable-to-human performance. The intention behind this was to fill up games where the required 4 humans weren't present to play the game.
 
@@ -40,14 +46,6 @@ As part of my Master's coursework at Princeton, my robotics final project was to
 
 ## packGenerator 
 packGenerator.com was an idea I had in the summer of 2020. As an avid baseball card collector, I wanted to create an application where users could open randomly generated packs of baseball cards and build online collections. I first made a python web scraper using BeautifulSoup to scrape images and names of over half a million baseball cards. I created the web app with ReactJS and the backend was implemented on a Linux VPS with NGINX running a Python Flask backend script. I made an account and registration system as well as a personal baseball card collection system so users can keep the cards they pull out of packs. I store this data on MongoDB.
-
-## Operation Space
-Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
-engineers at Princeton University. I designed the interstage adapter and the nozzle expander/interstage interface for the second stage. I performed full assembly FEA on the two
-stage vehicle. I was initimately familiar every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches. I was the last person to touch the rocket before launch, removing the safety bars attaching the two stages. 
-![PNE_5574](https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84)
-
-
 
 ## Erebus
 Erebus was a 20 person team at Princeton University which designed a Lunar Lander to drill and analyze regolith for water on the south pole of the lunar surface and an accompanying Lunar communications orbiter. I was an elected team lead on this project, and was responsible for the science payload on the lander and propulsion systems on the orbiter. Through this project I learned many valuable lessons about engineering design and requirements workflow in a larger team. Some challenges I had to deal with were extreme temperature constraints in the shaded Shackleton crater and volatile sublimation. As for the orbiter, I worked with the GNC team to provide an adequate total impulse over the proposed mission with a hydrazine thruster.
