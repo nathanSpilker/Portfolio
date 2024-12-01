@@ -15,7 +15,11 @@ Here are sample velocity contours calculated for lid driven cavity flow:
 Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
 engineers at Princeton University. I designed the interstage adapter and the nozzle expander/interstage interface for the second stage. I performed full assembly FEA on the two
 stage vehicle. I was initimately familiar every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches. I was the last person to touch the rocket before launch, removing the safety bars attaching the two stages. 
-![PNE_5574](https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84)
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84" width="700" />
+</p>
+
 
 ## Re-entry Vehicle Design
 My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body reentry vehicle with three of my peers. The design process required us to solve for an entry path and velocicty profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and utlimately design the thermal protection system (TPS). One of the tasks I permormed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
