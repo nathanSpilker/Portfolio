@@ -5,14 +5,15 @@ Nathan Spilker's project repository
 During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation software using Simulink. An image of the Simulink layout is in 6-DOF Simulation/Images, as well as sample outputs for an air-to-air missile, launched with an elevation of 45 degrees. The 6-DOF simulation code is in the file flat_earth_6dof.slx, and can be run for the air-to-air missile if tiw.mat is loaded into your MATLAB workspace. Closed loop controls are also included in the Simulink model, and control coefficients are in the .mat file.
 ![6dof](https://github.com/user-attachments/assets/5fb26340-42eb-4cce-8bd4-5b2feaea6fea)
 
-
-
 ## Thesis
-As my undergraduate thesis, I designed and built a tri-copter VTOL delivery drone for 25lb. payloads and 600-mile range with Noah McGuinness and Noah Schocet. I performed a complete aircraft sizing, CFD, longitudinal stability analysis, and designed a VTOL flight controller. Our thesis won the John Marshall II 2nd place thesis prize within the Princeton MAE department. Thus far, the project has culminated in construction of multiple prototypes that were flown as a proof of concept for the aircraft configuration. 
+As my undergraduate thesis, I designed and built a tri-copter VTOL delivery drone for 25lb. payloads and 600-mile range with Noah McGuinness and Noah Schocet. I performed a complete aircraft sizing, CFD, longitudinal stability analysis, and designed a VTOL flight controller. Our thesis won the John Marshall II 2nd place thesis prize within the Princeton MAE department. Thus far, the project has culminated in construction of multiple prototypes that were flown as a proof of concept for the aircraft configuration. Here is an image of our aircraft configuration:
+![fv2](https://github.com/user-attachments/assets/35154892-b31b-4803-bda7-c86088b9385b)
 
 ## CFD Solver
 As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
-
+Here are sample plots for lid driven cavity flow:
+https://github.com/nathanSpilker/Portfolio/blob/main/CFD/Parallel%20Version/U_sol.png
+https://github.com/nathanSpilker/Portfolio/blob/main/CFD/Parallel%20Version/V_data.dat
 ## Optimal Control For Satellite Maneuvers
 
 ## Re-entry Vehicle Design
