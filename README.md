@@ -11,9 +11,11 @@ As my undergraduate thesis, I designed and built a tri-copter VTOL delivery dron
 
 ## CFD Solver
 As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
-Here are sample plots for lid driven cavity flow:
-https://github.com/nathanSpilker/Portfolio/blob/main/CFD/Parallel%20Version/U_sol.png
-https://github.com/nathanSpilker/Portfolio/blob/main/CFD/Parallel%20Version/V_data.dat
+Here are sample velocity contours calculated for lid driven cavity flow:
+
+![U_sol](https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878) ![V_sol](https://github.com/user-attachments/assets/833bfd72-21b1-4ebf-a2c6-973fb7a074cb)
+
+
 ## Optimal Control For Satellite Maneuvers
 
 ## Re-entry Vehicle Design
