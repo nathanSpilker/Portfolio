@@ -40,6 +40,7 @@ During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation sof
 ![6dof](https://github.com/user-attachments/assets/5fb26340-42eb-4cce-8bd4-5b2feaea6fea)
 
 ## Optimal Control For Satellite Maneuvers
+This project was my Masters independent work. Under professor Ryne Beeson, my project was to solve for an optimal fuel trajectory for a satellite performing an orbital maneuver, subject to state uncertainty and path constraints. I derived the necessary conditions for optimality, the solved the two-point boundary problem for the optimal state and costate in MATLAB. The trajectory calculated is shown below.
 
 
 ## Pitch App
@@ -48,6 +49,7 @@ tourneyrules.app is a multiplayer web app where you can play the card game "Pitc
 ## Autonomous Quadcopter Obstacle Course Navigation
 As part of my Master's coursework at Princeton, my robotics final project was to write flight software for a quadcopter to fly through a randomized obstacle course, recognize an object, and land in front of it. This project used computer vision to recognize obstacles and objects, and the flight software was written to avoid the obstacles and fly toward the end, while staying within a boundary. Below is a video of our quadcopter navigating the obstacle course and landing in front of a book.
 
+[![IMAGE ALT TEXT HERE](https://www.youtube.com/shorts/UNKWCpuFtBo/0.jpg)](https://www.youtube.com/shorts/UNKWCpuFtBo)
 
 
 ## packGenerator 
