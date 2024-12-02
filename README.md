@@ -52,12 +52,9 @@ tourneyrules.app is a multiplayer web app where you can play the card game "Pitc
 ## Autonomous Quadcopter Obstacle Course Navigation
 As part of my Master's coursework at Princeton, my robotics final project was to write flight software for a quadcopter to fly through a randomized obstacle course, recognize an object, and land in front of it. This project used computer vision to recognize obstacles and objects, and the flight software was written to avoid the obstacles and fly toward the end, while staying within a boundary. Below is a video of our quadcopter navigating the obstacle course and landing in front of a book.
 
-<iframe width="315" height="560"
-src="https://youtube.com/embed/UNKWCpuFtBo?si=zKzk5YzHEktpHVaS"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen></iframe>
+
+https://github.com/user-attachments/assets/d74dc309-0b58-456f-80df-c2e474ae5371
+
 
 
 ## packGenerator 
