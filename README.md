@@ -9,7 +9,7 @@ As my undergraduate thesis, I designed and built a tri-copter VTOL delivery dron
 As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
 Here are sample velocity contours calculated for lid driven cavity flow:
 
-<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="500" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="500" />
+<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="450" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="450" />
 
 ## Operation Space
 Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
@@ -17,14 +17,14 @@ engineers at Princeton University. I designed the interstage adapter and the noz
 stage vehicle. I was initimately familiar every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches. I was the last person to touch the rocket before launch, removing the safety bars attaching the two stages. 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84" width="700" />
+<img src="https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84" width="600" />
 </p>
 
 
 ## Re-entry Vehicle Design
 My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body reentry vehicle with three of my peers. The design process required us to solve for an entry path and velocicty profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and utlimately design the thermal protection system (TPS). One of the tasks I permormed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7eda1d95-58a2-4664-bad4-21feee5e397a" width="700" />
+<img src="https://github.com/user-attachments/assets/7eda1d95-58a2-4664-bad4-21feee5e397a" width="500" />
 </p>
 
 
@@ -32,7 +32,7 @@ My final project for my Masters course in Hypersonic Aerodynamics was to design 
 Algorithm to find choatic 1D maps. Chaos can be defined as "Sensitive Dependence on Initial Conditions." The most famous and most studied chaotic 1D map is the logistic map: $`x 🡒 rx(1 - x)`$. One way this can be detected is with the Lyapunov exponent. For a given lambda value, if the Lyapunov exponent is positive, then the map is choatic. I created an algorithm that generates random 1D maps and calculate the Lyapunov exponent over a range of lambdas to detect if they have chaos. Three sample bifurcation plots are shown in the Chaos folder, plotted for maps discovered by this algorithm. One quite simple map that is chaotic that the algorithm discovered is $`x 🡒 \frac{rx}{\sqrt{r^4x^4 + 1}}`$. A bifurcation diagram for this map is shown below.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0cc1c4d3-e914-4563-811d-092836f91079" width="700" />
+<img src="https://github.com/user-attachments/assets/0cc1c4d3-e914-4563-811d-092836f91079" width="500" />
 </p>
 
 ## 6-DOF Simulation
@@ -63,13 +63,13 @@ packGenerator.com was an idea I had in the summer of 2020. As an avid baseball c
 ## Erebus
 Erebus was a 20 person team at Princeton University which designed a Lunar Lander to drill and analyze regolith for water on the south pole of the lunar surface and an accompanying Lunar communications orbiter. I was an elected team lead on this project, and was responsible for the science payload on the lander and propulsion systems on the orbiter. Through this project I learned many valuable lessons about engineering design and requirements workflow in a larger team. Some challenges I had to deal with were extreme temperature constraints in the shaded Shackleton crater and volatile sublimation. As for the orbiter, I worked with the GNC team to provide an adequate total impulse over the proposed mission with a hydrazine thruster. Below is an image of our lander design.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/bd42508b-0f9d-4528-aeb5-5b4c833360be" width="700" />
+<img src="https://github.com/user-attachments/assets/bd42508b-0f9d-4528-aeb5-5b4c833360be" width="500" />
 </p>
 
 
 ## AutoCookie
 This project was to design an algorithm that takes a clipart image as an input and outputs an "outline" image that can be used to create a 3D printable cookie cutter. The .exe file takes candidate.jpg, and transforms it into finished_prod.jpg, which can then be used to 3D print a cookie cutter. Below is an example of a Pikachu clipart image turned into an outline that can then be converted to an STL file to be 3D printed. 
-<img src="https://github.com/user-attachments/assets/2777597a-3ca3-4174-a4d4-62096f88d786" width="500" /> <img src="https://github.com/user-attachments/assets/1908cc04-9aa4-4480-9e40-fc0bff7c6061" width="500" />
+<img src="https://github.com/user-attachments/assets/2777597a-3ca3-4174-a4d4-62096f88d786" width="450" /> <img src="https://github.com/user-attachments/assets/1908cc04-9aa4-4480-9e40-fc0bff7c6061" width="450" />
 
 ## Coursework
 These are examples of my coursework at Princeton University. Included here currently is General Relativity. 
