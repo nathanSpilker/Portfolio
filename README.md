@@ -61,7 +61,8 @@ Erebus was a 20 person team at Princeton University which designed a Lunar Lande
 
 
 ## AutoCookie
-This project was to design an algorithm that takes a clipart image as an input and outputs an "outline" image that can be used to create a 3D printable cookie cutter. The .exe file takes candidate.jpg, and transforms it into finished_prod.jpg, which can then be used to 3D print a cookie cutter.
+This project was to design an algorithm that takes a clipart image as an input and outputs an "outline" image that can be used to create a 3D printable cookie cutter. The .exe file takes candidate.jpg, and transforms it into finished_prod.jpg, which can then be used to 3D print a cookie cutter. Below is an example of a Pikachu clipart image turned into an outline that can then be converted to an STL file to be 3D printed. 
+<img src="https://github.com/user-attachments/assets/2777597a-3ca3-4174-a4d4-62096f88d786" width="500" /> <img src="https://github.com/user-attachments/assets/1908cc04-9aa4-4480-9e40-fc0bff7c6061" width="500" />
 
 ## Coursework
 These are examples of my coursework at Princeton University. Included here currently is General Relativity. 
