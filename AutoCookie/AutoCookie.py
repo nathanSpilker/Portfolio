@@ -98,7 +98,7 @@ wpercent = (basewidth/float(padded_candidate.size[0]))
 hsize = int((float(padded_candidate.size[1])*float(wpercent)))
 padded_candidate = padded_candidate.resize((basewidth,hsize), Image.ANTIALIAS)
 
-padded_candidate.save(os.path.join(os.path.dirname(__file__), "finished_prod.jpg"))
+padded_candidate.save(os.path.join(os.path.dirname(__file__), "finished_prod.png"))
 
 # end = time.time()
 # print(end - start)
