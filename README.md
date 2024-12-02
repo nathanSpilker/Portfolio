@@ -9,7 +9,7 @@ As my undergraduate thesis, I designed and built a tri-copter VTOL delivery dron
 As part of my Masters coursework, I took a class in scientific computing and numerical methods. My final project was a 2D incompressible Navier-Stokes solver. Different meshes and boundary conditions can be set to simulate a variety of scenarios. The code was also parallelized for faster runtime. A presentation outlining the algorithm and code in the CFD folder. 
 Here are sample velocity contours calculated for lid driven cavity flow:
 
-<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="425" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="425" />
+<img src="https://github.com/user-attachments/assets/a1e209ad-08c7-4e12-914f-cdbc2d248878" width="410" /> <img src="https://github.com/user-attachments/assets/d6d944df-8566-48f1-9e5d-66355283ead6" width="410" />
 
 ## Operation Space
 Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
@@ -59,13 +59,13 @@ packGenerator.com was an idea I had in the summer of 2020. As an avid baseball c
 ## Erebus
 Erebus was a 20 person team at Princeton University which designed a Lunar Lander to drill and analyze regolith for water on the south pole of the lunar surface and an accompanying Lunar communications orbiter. I was an elected team lead on this project, and was responsible for the science payload on the lander and propulsion systems on the orbiter. Through this project I learned many valuable lessons about engineering design and requirements workflow in a larger team. Some challenges I had to deal with were extreme temperature constraints in the shaded Shackleton crater and volatile sublimation. As for the orbiter, I worked with the GNC team to provide an adequate total impulse over the proposed mission with a hydrazine thruster. Below is an image of our lander design.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/bd42508b-0f9d-4528-aeb5-5b4c833360be" width="600" />
+<img src="https://github.com/user-attachments/assets/bd42508b-0f9d-4528-aeb5-5b4c833360be" width="700" />
 </p>
 
 
 ## AutoCookie
 This project was to design an algorithm that takes a clipart image as an input and outputs an "outline" image that can be used to create a 3D printable cookie cutter. The .exe file takes candidate.jpg, and transforms it into finished_prod.jpg, which can then be used to 3D print a cookie cutter. Below is an example of a Pikachu clipart image turned into an outline that can then be converted to an STL file to be 3D printed. 
-<img src="https://github.com/user-attachments/assets/2777597a-3ca3-4174-a4d4-62096f88d786" width="425" /> <img src="https://github.com/user-attachments/assets/1908cc04-9aa4-4480-9e40-fc0bff7c6061" width="425" />
+<img src="https://github.com/user-attachments/assets/2777597a-3ca3-4174-a4d4-62096f88d786" width="410" /> <img src="https://github.com/user-attachments/assets/1908cc04-9aa4-4480-9e40-fc0bff7c6061" width="410" />
 
 ## Coursework
 These are examples of my coursework at Princeton University. Included here currently is General Relativity. 
