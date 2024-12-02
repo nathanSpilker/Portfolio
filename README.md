@@ -42,6 +42,9 @@ During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation sof
 ## Optimal Control For Satellite Maneuvers
 This project was my Masters independent work. Under professor Ryne Beeson, my project was to solve for an optimal fuel trajectory for a satellite performing an orbital maneuver, subject to state uncertainty and path constraints. I derived the necessary conditions for optimality, the solved the two-point boundary problem for the optimal state and costate in MATLAB. The trajectory calculated is shown below.
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b4fbde91-674b-422b-a5ab-bb4877f42004" width="700" />
+</p>
 
 ## Pitch App
 tourneyrules.app is a multiplayer web app where you can play the card game "Pitch." Pitch is one of my family's favorite card games and since I don't live close enough to play with them in person oftern, nor does the game exist in any other online players, I decided to develop it myself. The app uses websockets for a real-time multiplayer experience. Another part of this project was an AI pitch-player model. Using tensorflow, I used Deep Learning to create an model that can play the card game with comparable-to-human performance. The intention behind this was to fill up games where the required four humans weren't present to play the game.
