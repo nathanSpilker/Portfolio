@@ -40,6 +40,7 @@ During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation sof
 ![6dof](https://github.com/user-attachments/assets/5fb26340-42eb-4cce-8bd4-5b2feaea6fea)
 
 ## Optimal Control For Satellite Maneuvers
+This project was my Masters independent work. Under professor Ryne Beeson, my project was to solve for an optimal fuel trajectory for a satellite performing an orbital maneuver, subject to state uncertainty and path constraints. I derived the necessary conditions for optimality, the solved the two-point boundary problem for the optimal state and costate in MATLAB. The trajectory calculated is shown below.
 
 
 ## Pitch App
@@ -48,6 +49,12 @@ tourneyrules.app is a multiplayer web app where you can play the card game "Pitc
 ## Autonomous Quadcopter Obstacle Course Navigation
 As part of my Master's coursework at Princeton, my robotics final project was to write flight software for a quadcopter to fly through a randomized obstacle course, recognize an object, and land in front of it. This project used computer vision to recognize obstacles and objects, and the flight software was written to avoid the obstacles and fly toward the end, while staying within a boundary. Below is a video of our quadcopter navigating the obstacle course and landing in front of a book.
 
+<iframe width="315" height="560"
+src="https://youtube.com/embed/UNKWCpuFtBo?si=zKzk5YzHEktpHVaS"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
 
 
 ## packGenerator 
@@ -61,7 +68,8 @@ Erebus was a 20 person team at Princeton University which designed a Lunar Lande
 
 
 ## AutoCookie
-This project was to design an algorithm that takes a clipart image as an input and outputs an "outline" image that can be used to create a 3D printable cookie cutter. The .exe file takes candidate.jpg, and transforms it into finished_prod.jpg, which can then be used to 3D print a cookie cutter.
+This project was to design an algorithm that takes a clipart image as an input and outputs an "outline" image that can be used to create a 3D printable cookie cutter. The .exe file takes candidate.jpg, and transforms it into finished_prod.jpg, which can then be used to 3D print a cookie cutter. Below is an example of a Pikachu clipart image turned into an outline that can then be converted to an STL file to be 3D printed. 
+<img src="https://github.com/user-attachments/assets/2777597a-3ca3-4174-a4d4-62096f88d786" width="500" /> <img src="https://github.com/user-attachments/assets/1908cc04-9aa4-4480-9e40-fc0bff7c6061" width="500" />
 
 ## Coursework
 These are examples of my coursework at Princeton University. Included here currently is General Relativity. 
