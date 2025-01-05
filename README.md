@@ -21,7 +21,7 @@ engineers at Princeton University. I was chief engineer for this project, specif
 
 
 ## Re-entry Vehicle Design
-My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body re-entry vehicle with three of my peers. The design process required us to solve for an entry path and velocity profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and utlimately design the thermal protection system (TPS). One of the tasks I permormed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
+My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body re-entry vehicle with three of my peers. The design process required us to solve for an entry path and velocity profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and ultimately design the thermal protection system (TPS). One of the tasks I performed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7eda1d95-58a2-4664-bad4-21feee5e397a" width="500" />
 </p>
