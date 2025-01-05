@@ -13,8 +13,7 @@ Here are sample velocity contours calculated for lid driven cavity flow:
 
 ## Operation Space
 Operation Space was an intercollegiate effort to send a two-stage, 18 foot, hypersonic, sounding rocket past the Karman Line. The engineering work was done by a small team of
-engineers at Princeton University. I was chief engineer for this project, specifically designing the interstage adapter and the nozzle expander/interstage interface for the second stage. I performed full assembly FEA on the two
-stage vehicle. I was intimately familiar with every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches. I was the last person to touch the rocket before launch, removing the safety bars attaching the two stages. 
+engineers at Princeton University. I was chief engineer for this project, specifically designing the interstage adapter and the nozzle expander/interstage interface for the second stage. I performed full assembly FEA on the two-stage vehicle. I was intimately familiar with every single one of the 200+ components on the vehicle and oversaw construction of two, two-stage vehicles at Spaceport America. Helped conduct range safety protocols and ensured two successful launches. I was the last person to touch the rocket before launch, removing the safety bars attaching the two stages. 
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/ceb01196-ca84-480a-94c6-a8e8b4648c84" width="600" />
@@ -22,14 +21,14 @@ stage vehicle. I was intimately familiar with every single one of the 200+ compo
 
 
 ## Re-entry Vehicle Design
-My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body reentry vehicle with three of my peers. The design process required us to solve for an entry path and velocicty profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and utlimately design the thermal protection system (TPS). One of the tasks I permormed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
+My final project for my Masters course in Hypersonic Aerodynamics was to design a a blunt-body re-entry vehicle with three of my peers. The design process required us to solve for an entry path and velocity profile, calculate pressure coefficients around the vehicle, determine the aerothermodynamic and inertial loading, and utlimately design the thermal protection system (TPS). One of the tasks I permormed for this project was writing an optimization algorithm to design the TPS material stack and thicknesses to meet a range of requirements. An image of the mesh of the blunt-body vehicle we studied is shown below. 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7eda1d95-58a2-4664-bad4-21feee5e397a" width="500" />
 </p>
 
 
 ## Chaos Research - Lyapunov Exponents
-Algorithm to find choatic 1D maps. Chaos can be defined as "Sensitive Dependence on Initial Conditions." The most famous and most studied chaotic 1D map is the logistic map: $`x 🡒 rx(1 - x)`$. One way this can be detected is with the Lyapunov exponent. For a given lambda value, if the Lyapunov exponent is positive, then the map is choatic. I created an algorithm that generates random 1D maps and calculate the Lyapunov exponent over a range of lambdas to detect if they have chaos. Three sample bifurcation plots are shown in the Chaos folder, plotted for maps discovered by this algorithm. One quite simple map that is chaotic that the algorithm discovered is $`x 🡒 \frac{rx}{\sqrt{r^4x^4 + 1}}`$. A bifurcation diagram for this map is shown below.
+Algorithm to find choatic 1D maps. Chaos can be defined as "Sensitive Dependence on Initial Conditions." The most famous and most studied chaotic 1D map is the logistic map: $`x 🡒 rx(1 - x)`$. One way this can be detected is with the Lyapunov exponent. For a given lambda value, if the Lyapunov exponent is positive, then the map is chaotic. I created an algorithm that generates random 1D maps and calculate the Lyapunov exponent over a range of lambdas to detect if they have chaos. Three sample bifurcation plots are shown in the Chaos folder, plotted for maps discovered by this algorithm. One quite simple map that is chaotic that the algorithm discovered is $`x 🡒 \frac{rx}{\sqrt{r^4x^4 + 1}}`$. A bifurcation diagram for this map is shown below.
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/0cc1c4d3-e914-4563-811d-092836f91079" width="500" />
