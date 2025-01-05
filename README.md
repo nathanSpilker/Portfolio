@@ -39,7 +39,7 @@ During my time as CTO of Ravyn Technology, I developed this 6-DOF simulation sof
 ![6dof](https://github.com/user-attachments/assets/5fb26340-42eb-4cce-8bd4-5b2feaea6fea)
 
 ## Optimal Control For Satellite Maneuvers
-This project was my Masters independent work. Under professor Ryne Beeson, my project was to solve for an optimal fuel trajectory for a satellite performing an orbital maneuver, subject to state uncertainty and path constraints. I derived the necessary conditions for optimality, the solved the two-point boundary problem for the optimal state and costate in MATLAB. The trajectory calculated is shown below.
+This project was my Masters independent work. Under professor Ryne Beeson, my project was to solve for an optimal fuel trajectory for a satellite performing an orbital maneuver, subject to state uncertainty and path constraints. I derived the necessary conditions for optimality, then solved the two-point boundary problem for the optimal state and costate in MATLAB. The trajectory calculated is shown below.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b4fbde91-674b-422b-a5ab-bb4877f42004" width="400" />
 </p>
